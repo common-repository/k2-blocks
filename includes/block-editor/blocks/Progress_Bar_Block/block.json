@@ -1,0 +1,108 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/progressbar-block",
+	"version": "0.1.0",
+	"title": "Progress Bar",
+	"category": "k2-blocks",
+	"description": "In today's fast-paced world, visual representations play a vital role in conveying information quickly and effectively. The Progress Bar block offered by K2-Blocks allows you to showcase progress and achievements in a visually appealing manner.",
+	"keywords":  [ "Progress bar", "K2 Blocks", "Color" , "progress"],
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+            "margin": true, 
+            "padding": true, 
+            "blockGap": true  
+        }
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes": {
+		"progressBarColor": {
+		  "type": "string",
+		  "default": "#1995AD"
+		},
+		"progressBarHeight": {
+		  "type": "number",
+		  "default": 1.5
+		},
+		"title": {
+		  "type": "string",
+		  "default": "Progress"
+		},
+		"titleColor": {
+		  "type": "string",
+		  "default": "#1995AD"
+		},
+		"progressBarPercentage": {
+		  "type": "number",
+		  "default": 54
+		},
+		"ShowPercentage": {
+		  "type": "boolean",
+		  "default": true
+		},
+		"TextFontSize": {
+		  "type": "number",
+		  "default": 14
+		},
+		"ProgressBarBackGroundColor": {
+		  "type": "string",
+		  "default": "lightgray"
+		},
+		"AnimateProgressBar": {
+		  "type": "boolean",
+		  "default": true
+		},
+		"AnimationState": {
+		  "type": "string",
+		  "default": "running"
+		},
+		"TextFontFamily": {
+		  "type": "string",
+		  "default": "Arial"
+		},
+		"TextFontWeight": {
+		  "type": "string",
+		  "default": "600"
+		},
+		"ProgressBarBorderRadius": {
+		  "type": "number",
+		  "default": 36
+		},
+		"ProgressBarOpacity": {
+		  "type": "number",
+		  "default": 0.4
+		},
+		"ProgressBarStripedOrSolid": {
+		  "type": "boolean",
+		  "default": true
+		},
+		"ProgressBarWidth": {
+		  "type": "number",
+		  "default": 54
+		},
+		"ProgressBarTextStyle": {
+		  "type": "number",
+		  "default": "normal"
+		},
+		"ProgressBarTextDecoration": {
+		  "type": "string",
+		  "default": "None"
+		},
+		"ProgressBarTextDisplay": {
+		  "type": "boolean",
+		  "default": true
+		},
+		"ProgressBarAllignment": {
+		  "type": "string",
+		  "default": "center"
+		}
+	  }
+	  
+	  
+	
+}

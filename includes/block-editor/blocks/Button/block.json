@@ -1,0 +1,114 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/animated-button",
+	"version": "0.1.0",
+	"title": "Animated Button",
+	"category": "k2-blocks",
+	"description": "Creactive animated and interactive button.",
+	"keywords":  [ "Animated Button", "K2 Blocks", "Button" , "Magik Blocks"],
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+            "margin": true, 
+            "padding": true, 
+            "blockGap": true  
+        }
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes": {
+		"AnimatedButtonWidth": {
+			"type": "number",
+			"default": 20
+		},
+		"AnimatedButtonBorderRadius": {
+			"type": "number",
+			"default": 10
+		},
+		"AnimatedButtonText": {
+			"type": "string",
+			"default": "Animated Button"
+		},
+		"AnimatedButtonLink": {
+			"type": "string",
+			"default": "https://www.k2blocks.com"
+		},
+		"AnimatedLetterSpacing": {
+			"type": "number",
+			"default": 0
+		},
+		"ButtonColor": {
+			"type": "string",
+			"default": "#49119c"
+		},
+		"TextColor": {
+			"type": "string",
+			"default": "white"
+		},
+		"ButtonIconEnable": {
+			"type": "boolean",
+			"default": true
+		},
+		"AlertBoxIconType": {
+			"type": "string",
+			"default": "fa fa-rocket"
+		},
+		"textFontFamily": {
+			"type": "string",
+			"default": "\"Gill Sans\",Sans-serif"
+		},
+		"textAlignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"ButtonIconPosition": {
+			"type": "string",
+			"default": "row;"
+		},
+		"ButtonIconTextGap": {
+			"type": "number",
+			"default": 1
+		},
+		"ButtonisHovered": {
+			"type": "boolean",
+			"default": false
+		},
+		"HoveredBackground": {
+			"type": "string",
+			"default": "#148D9D"
+		},
+		"HoveredTextColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"K2btnHoverEffects": {
+			"type": "string"
+		},
+		"K2ButtonPadding": {
+			"type": "object",
+			"default": {
+				"top": "8px",
+				"right": "8px",
+				"bottom": "8px",
+				"left": "8px"
+			}
+		},
+		"BlockBackgroundShadow": {
+			"type": "boolean",
+			"default": false
+		},
+		"ButtonFontSize": {
+			"type": "number",
+			"default": 1.3
+		},
+		"buttonID": {
+			"type": "string",
+			"default": ""
+		}
+	}
+	
+}

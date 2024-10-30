@@ -1,0 +1,115 @@
+.k2-modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.k2-modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 10;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.k2-modal-backend {
+  box-shadow: 1px 1px 20px grey;
+  border-radius: 20px;
+  background-color: #fefefe;
+  margin: 5% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: none;
+  width: 100%;
+  /* Could be more or less, depending on screen size */
+  margin-top: 2em;
+  position: relative;
+}
+
+
+
+/* Modal Content/Box */
+.k2-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: none;
+  width: 60%;
+  /* Could be more or less, depending on screen size */
+  box-shadow: 1px 1px 20px grey;
+  border-radius: 20px;
+  position: relative;
+}
+
+.k2-modal-close {
+  color: #aaa;
+  font-size: 2em !important;
+  font-weight: bold;
+  display: block;
+  text-align: right;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+.k2-modal-close:hover,
+.k2-modal-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.k2-modal-button {
+  background-color: #43cea2;
+  border: none;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+}
+
+.k2-modal-fade-in {
+  animation: opac 0.8s
+}
+
+@keyframes opac {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@media (max-width: 767px) {
+  .k2-modal-content {
+    width: 90%;
+    margin: 30% auto;
+  }
+}
+
+.k2-modal-image {
+  cursor: pointer;
+  object-fit: cover;
+}

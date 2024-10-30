@@ -1,0 +1,97 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/animated-banner",
+	"version": "0.1.0",
+	"title": "Animated Banner",
+	"category": "k2-blocks",
+	"description": "In today's digital world, attention-grabbing visual elements are crucial for captivating your audience. Animated banner blocks are an excellent way to enhance the visual appeal of your website and engage your visitors.",
+	"keywords":  [ "Animated Banner", "K2 Blocks"],
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes": {
+		"AnimatedBannerHeadingText": {
+			"type": "string",
+			"default": "Animated Banner"
+		},
+		"AnimatedBannerParagraphText": {
+			"type": "string",
+			"default": "Hover on this banner for animation"
+		},
+		"AnimatedBannerWidth": {
+			"type": "number",
+			"default": 50
+		},
+		"AnimatedBannerHeight": {
+			"type": "number",
+			"default": 25
+		},
+		"AnimatedBannerAllignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"AnimatedBannerBackgroundImage": {
+			"type": "string",
+			"default": "http://k2blocks.com/wp-content/uploads/2023/06/Rectangle-1693.png"
+		},
+		"AnimatedBannerTextHorizontalAlignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"AnimatedBannerTextVerticalAlignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"AnimatedBannerHeadingTextFontSize": {
+			"type": "string",
+			"default": "2.5"
+		},
+		"AnimatedBannerHeadingTextFontFamily": {
+			"type": "string",
+			"default": "Helvatica"
+		},
+		"AnimatedBannerHeadingTextWeight": {
+			"type": "number",
+			"default": 800
+		},
+		"AnimatedBannerParagraphTextFontSize": {
+			"type": "number",
+			"default": 1.7
+		},
+		"AnimatedBannerParagraphTextFontFamily": {
+			"type": "string",
+			"default": "Helvatica"
+		},
+		"AnimatedBannerParagraphTextWeight": {
+			"type": "number",
+			"default": 500
+		},
+		"AnimatedBannerAnimationOverlayColor": {
+			"type": "string",
+			"default": "inset 0 0 0 100vh rgba(255,0,0,0.0)"
+		},
+		"AnimatedBannerAnimationStyle": {
+			"type": "string",
+			"default": "Translate"
+		},
+		"AnimatedBannerAnimationOpacity": {
+			"type": "number",
+			"default": 0.8
+		},
+		"InspectorControlAnimatedBannerOverlayColor": {
+			"type": "string",
+			"default": "rgba(68,68,68,0.4)"
+		},
+		"AnimatedBannerAnimationHeight": {
+			"type": "number",
+			"default": 100
+		}
+	}
+			
+}

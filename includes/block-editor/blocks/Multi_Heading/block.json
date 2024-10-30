@@ -1,0 +1,180 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/multi-heading-block",
+	"version": "0.1.0",
+	"title": "Multi Heading",
+	"category": "k2-blocks",
+	"description": "The Multi Heading block is a versatile Gutenberg block that allows users to display headings of various types and styles.",
+	"keywords":  [ "Multi Heading", "K2 Blocks", "Color" , "Heading"],
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+            "margin": true, 
+            "padding": true, 
+            "blockGap": true  
+        }
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes": {
+		"K2Headingone": {
+			"type": "string",
+			"default": "K2"
+		},
+		"K2HeadingoneColor": {
+			"type": "string",
+			"default": "#EFC832"
+		},
+		"K2HeadingBgColor": {
+			"type": "string"
+		},
+		"K2HeadingoneSize": {
+			"type": "number",
+			"default": 44
+		},
+		"K2HeadingoneGradient": {
+			"type": "string",
+			"default": "linear-gradient(45deg, rgb(15, 32, 39) 0%, rgb(29, 146, 221) 0%, rgb(123, 220, 181) 100%)"
+		},
+		"K2HeadingOnePadding": {
+			"type": "object",
+			"default": {"top": "0px", "right": "6px", "bottom": "0px", "left": "0px"}
+		},
+		"K2HeadingOneMargin": {
+			"type": "object",
+			"default": {"top": "0px", "right": "0px", "bottom": "0px", "left": "0px"}
+		},
+		"K2HeadingOneBorder": {
+			"type": "object",
+			"default": {"color": "#0FAE96", "style": "solid", "width": "0px"}
+		},
+		"K2HeadingOneBorderRadius": {
+			"type": "object",
+			"default": {"top": "0px", "right": "0px", "bottom": "0px", "left": "0px"}
+		},
+		"K2HeadingOneColoractiveTab": {
+			"type": "string"
+		},
+		"K2enableHeadingtwo": {
+			"type": "boolean",
+			"default": false
+		},
+		"K2Headingtwo": {
+			"type": "string",
+			"default": "Heading"
+		},
+		"K2HeadingtwoBgColor": {
+			"type": "string"
+		},
+		"K2HeadingtwoColor": {
+			"type": "string",
+			"default": "#162A4F"
+		},
+		"K2HeadingtwoSize": {
+			"type": "number",
+			"default": 44
+		},
+		"K2HeadingtwoPadding": {
+			"type": "object",
+			"default": {"top": "0px", "right": "6px", "bottom": "0px", "left": "0px"}
+		},
+		"K2HeadingtwoMargin": {
+			"type": "object",
+			"default": {"top": "0px", "right": "0px", "bottom": "0px", "left": "0px"}
+		},
+		"K2HeadingtwoBorder": {
+			"type": "object",
+			"default": {"color": "#0FAE96", "style": "solid", "width": "0px"}
+		},
+		"K2HeadingtwoBorderRadius": {
+			"type": "object",
+			"default": {"top": "0px", "right": "0px", "bottom": "0px", "left": "0px"}
+		},
+		"K2HeadingtwoGradient": {
+			"type": "string",
+			"default": "linear-gradient(45deg, rgb(15, 32, 39) 0%, rgb(29, 146, 221) 0%, rgb(123, 220, 181) 100%)"
+		},
+		"K2HeadingtwoColoractiveTab": {
+			"type": "string",
+			"default": "TextColor"
+		},
+		"enableHeadingthree": {
+			"type": "boolean",
+			"default": false
+		},
+		"K2Headingthree": {
+			"type": "string",
+			"default": "Block"
+		},
+		"K2HeadingthreeColor": {
+			"type": "string",
+			"default": "#EFC832"
+		},
+		"K2HeadingthreeBgColor": {
+			"type": "string"
+		},
+		"K2HeadingthreeSize": {
+			"type": "number",
+			"default": 44
+		},
+		"K2HeadingthreePadding": {
+			"type": "object",
+			"default": {"top": "0px", "right": "0px", "bottom": "0px", "left": "0px"}
+		},
+		"K2HeadingthreeMargin": {
+			"type": "object",
+			"default": {"top": "0px", "right": "0px", "bottom": "0px", "left": "0px"}
+		},
+		"K2HeadingthreeBorder": {
+			"type": "object",
+			"default": {"color": "#0FAE96", "style": "solid", "width": "0px"}
+		},
+		"K2HeadingthreeBorderRadius": {
+			"type": "object",
+			"default": {"top": "0px", "right": "0px", "bottom": "0px", "left": "0px"}
+		},
+		"K2HeadingthreeColoractiveTab": {
+			"type": "string"
+		},
+		"K2HeadingthreeGradient": {
+			"type": "string",
+			"default": "linear-gradient(45deg, rgb(15, 32, 39) 0%, rgb(29, 146, 221) 0%, rgb(123, 220, 181) 100%)"
+		},
+		"startFromNewLineTwo": {
+			"type": "boolean",
+			"default": false
+		},
+		"startFromNewLineThree": {
+			"type": "boolean",
+			"default": false
+		},
+		"K2headingAlignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"K2headingoneFontFam": {
+			"type": "string"
+		},
+		"K2headingoneFontWeight": {
+			"type": "string"
+		},
+		"K2headingtwoFontFam": {
+			"type": "string"
+		},
+		"K2headingtwoFontWeight": {
+			"type": "string"
+		},
+		"K2headingthreeFontFam": {
+			"type": "string"
+		},
+		"K2headingthreeFontWeight": {
+			"type": "string"
+		}
+	}
+	  
+	
+}

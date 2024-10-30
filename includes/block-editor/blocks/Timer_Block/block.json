@@ -1,0 +1,113 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/countdown-block",
+	"version": "0.1.0",
+	"title": "Countdown",
+	"category": "k2-blocks",
+	"description": "As the Gutenberg editor continues to revolutionize WordPress web design, the introduction of K2-Blocks brings an array of exciting new options for website developers.",
+	"keywords":  [ "Countdown","Timer", "K2 Blocks", "Timer Block" ],
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+            "margin": true, 
+            "padding": true, 
+            "blockGap": true  
+        }
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes": {
+		"minutes": {
+		  "type": "integer",
+		  "default": 0
+		},
+		"hours": {
+		  "type": "integer",
+		  "default": 0
+		},
+		"date": {
+		  "type": "integer",
+		  "default": 1
+		},
+		"month": {
+		  "type": "integer",
+		  "default": 7
+		},
+		"year": {
+		  "type": "integer",
+		  "default": 2020
+		},
+		"days_": {
+		  "type": "integer",
+		  "default": 0
+		},
+		"hours_": {
+		  "type": "integer",
+		  "default": 0
+		},
+		"minutes_": {
+		  "type": "integer",
+		  "default": 0
+		},
+		"seconds_": {
+		  "type": "integer",
+		  "default": 0
+		},
+		"TimerValueBackgroundColor": {
+		  "type": "string",
+		  "default": "#B2A6FF"
+		},
+		"TimerValueBackGroundShadow": {
+		  "type": "boolean",
+		  "default": true
+		},
+		"TimerValueColor": {
+		  "type": "string",
+		  "default": "white"
+		},
+		"numberFontSize": {
+		  "type": "number",
+		  "default": 3
+		},
+		"numberFontFamily": {
+		  "type": "string",
+		  "default": "\"Montserrat\",Sans-serif"
+		},
+		"TimerTextColor": {
+		  "type": "string",
+		  "default": "#B2A6FF"
+		},
+		"textFontFamily": {
+		  "type": "string",
+		  "default": "\"Montserrat\",Sans-serif"
+		},
+		"textFontSize": {
+		  "type": "number",
+		  "default": 1
+		},
+		"TimerLayout": {
+		  "type": "string",
+		  "default": "Classic"
+		},
+		"BlockBackgroundColor": {
+		  "type": "string",
+		  "default": "transparent"
+		},
+		"BlockBackgroundShadow": {
+		  "type": "boolean"
+		},
+		"BlockMinWidth": {
+		  "type": "number",
+		  "default": 5
+		},
+		"CircleBlockRadium": {
+		  "type": "number",
+		  "default": 0
+		}
+	}
+	  
+}

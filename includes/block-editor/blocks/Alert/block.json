@@ -1,0 +1,236 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/alert-block",
+	"version": "0.1.0",
+	"title": "Info Box",
+	"category": "k2-blocks",
+	"description": "info box description",
+	"keywords":  [ "Alert blocks", "Magik Blocks"],
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes": {
+		"AlertBoxImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"AlertBoxText": {
+			"type": "string",
+			"default": "Hello, I am an info box with an icon and text. "
+		},
+		"AlertBoxColor": {
+			"type": "string",
+			"default": "#C4DADC"
+		},
+		"AlertBoxBorderColor": {
+			"type": "string",
+			"default": "green"
+		},
+		"AlertBoxTextColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"AlertBoxIconSize": {
+			"type": "number",
+			"default": 3
+		},
+		"AlertBoxTextSize": {
+			"type": "number",
+			"default": 2
+		},
+		"AlertBoxIconColor": {
+			"type": "string",
+			"default": "#1995AD"
+		},
+		"AlertBoxIconType": {
+			"type": "string",
+			"default": "fas fa-rocket"
+		},
+		"AlertBoxIconSpacing": {
+			"type": "number",
+			"default": 0
+		},
+		"AlertBoxLayoutOptions": {
+			"type": "string",
+			"default": "Classic"
+		},
+		"AlertBoxLayoutAttribute": {
+			"type": "string",
+			"default": "column"
+		},
+		"AlertBoxClassicAlignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"AlertBoxSimpleAlignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"AlertBoxBorderStyle": {
+			"type": "string",
+			"default": "None"
+		},
+		"AlertBoxBorderWidth": {
+			"type": "number",
+			"default": 2
+		},
+		"AlertBoxBorderRadius": {
+			"type": "number",
+			"default": 16
+		},
+		"AlertBoxWidgetWidth": {
+			"type": "number",
+			"default": 60
+		},
+		"AlertIconBackgroundColor": {
+			"type": "string",
+			"default": "white"
+		},
+		"AlertIconBackgroundBorderRadius": {
+			"type": "number",
+			"default": 10
+		},
+		"AlertBoxTextFontFamily": {
+			"type": "string",
+			"default": "Gill Sans"
+		},
+		"AlertBoxTextFontWeight": {
+			"type": "string",
+			"default": "normal"
+		},
+		"AlertBoxTextStyle": {
+			"type": "number",
+			"default": "normal"
+		},
+		"AlertBoxTextDecoration": {
+			"type": "string",
+			"default": "None"
+		},
+		"AlertBoxTextLineHeight": {
+			"type": "number",
+			"default": 22
+		},
+		"AlertBoxWidth": {
+			"type": "number",
+			"default": 50
+		},
+		"AlertBoxWidgetAlignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"AlertBoxTextAlignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"enableImage": {
+			"type": "boolean",
+			"default": false
+		},
+		"imageSize": {
+			"type": "number",
+			"default": 100
+		},
+		"AlertBoxMediaSpacing": {
+			"type": "number"
+		},
+		"EnableAlertBoxText": {
+			"type": "boolean",
+			"default": false
+		},
+		"EnableAlertBoxHeading": {
+			"type": "boolean",
+			"default": true
+		},
+		"AlertboxHeadingText": {
+			"type": "string",
+			"default": "Info Box Heading"
+		},
+		"AlertBoxHeadingColor": {
+			"type": "string",
+			"default": "#000"
+		},
+		"AlertBoxHeadingSize": {
+			"type": "number",
+			"default": 2
+		},
+		"AlertBoxHeadingFontFam": {
+			"type": "string"
+		},
+		"AlertBoxHeadingFontWeight": {
+			"type": "string"
+		},
+		"AlertHeadingSpacing": {
+			"type": "number"
+		},
+		"AlertBoxShadow": {
+			"type": "object",
+			"default": { "x": "1", "y": "1", "blur": "3", "spread": "4", "color": "#0FAE96", "position": "default" }
+		},
+		"AlertBoxImageBorderRadius": {
+			"type": "number",
+			"default": 10
+		},
+		"AlertBoxPaddingCont": {
+			"type": "object",
+			"default": { "top": "8px", "right": "8px", "bottom": "8px", "left": "8px" }
+		},
+		"alertBoxEnableButton": {
+			"type": "boolean",
+			"default": false
+		},
+		"AlrtBoxButtonText": {
+			"type": "string"
+		},
+		"AlertBoxButtonLink": {
+			"type": "string",
+			"default": "https://k2blocks.com/"
+		},
+		"AlertBoxButtonAlignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"alertBoxButtonfontSize": {
+			"type": "number",
+			"default": 1.4
+		},
+		"AlertBoxButtonFontFamily": {
+			"type": "string"
+		},
+		"AlertBoxButtonFontWeight": {
+			"type": "string",
+			"default": "600"
+		},
+		"AlertBoxButtonTextColot": {
+			"type": "string",
+			"default": "#FFFFFF"
+		},
+		"AlertBoxButtonbackgroundColor": {
+			"type": "string",
+			"default": "#3D6AFF"
+		},
+		"AlertBoxButtonPadding": {
+			"type": "object",
+			"default": { "top": "10px", "right": "20px", "bottom": "10px", "left": "20px" }
+		},
+		"AlertBoxButtonMargin": {
+			
+			"type": "object",
+			"default": { "top": "20px", "right": "0px", "bottom": "0px", "left": "0px" }
+		},
+		"AlertBoxButtonBorder": {
+			"type": "object",
+			"default": { "color": "#3D6AFF", "style": "solid", "width": "1px" }
+		},
+		"AlertBoxButtonBorderRadius": {
+			"type": "number",
+			"default": 8
+		}
+	}
+			
+}

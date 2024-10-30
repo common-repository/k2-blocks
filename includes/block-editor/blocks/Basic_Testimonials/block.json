@@ -1,0 +1,112 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/basic-testimonial",
+	"version": "0.1.0",
+	"title": "Basic Testimonial",
+	"category": "k2-blocks",
+	"description": "Testimonials hold immense value in establishing trust and credibility for your brand. With the Basic Testimonials block offered by K2-Blocks, you can seamlessly showcase customer feedback and experiences on your website.",
+	"keywords":  [ "Testimonial", "K2 Blocks"],
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+            "margin": true, 
+            "padding": true, 
+            "blockGap": true  
+        }
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes":{
+		"k2BTtestimonials": {
+			"type": "string",
+			"default": "— Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type"
+		},
+		"k2BTauthorName": {
+			"type": "string",
+			"default": "Zoe Mantis"
+		},
+		"k2BTauthorImage": {
+			"type": "string",
+			"default": "https://k2blocks.com/wp-content/uploads/2023/01/pexels-vazhnik-7562313.png"
+		},
+		"K2BTauthorImageWidth": {
+			"type": "number",
+			"default": 55
+		},
+		"AuthorImageAlignment": {
+			"type": "string",
+			"default": "flex-start"
+		},
+		"K2BTtextColor": {
+			"type": "string",
+			"default": "#fff"
+		},
+		"k2BTtextfontSize": {
+			"type": "number"
+		},
+		"K2BTtextFontFamily": {
+			"type": "string"
+		},
+		"K2BTtextFontAlignment": {
+			"type": "string"
+		},
+		"K2BTtextLineHeight": {
+			"type": "number",
+			"default": 1.5
+		},
+		"K2BTquoteColor": {
+			"type": "string",
+			"default": "#2C2A4A"
+		},
+		"K2BtquoteFontFam": {
+			"type": "string"
+		},
+		"K2BTtextFontWeight": {
+			"type": "string"
+		},
+		"k2BTauthornameColor": {
+			"type": "string",
+			"default": "#fff"
+		},
+		"k2BTauthorNameFontSize": {
+			"type": "number"
+		},
+		"k2BTauthorNameFontFamily": {
+			"type": "string"
+		},
+		"k2BTauthorNameFontWeight": {
+			"type": "string"
+		},
+		"K2BTtestimonialBackground": {
+			"type": "string",
+			"default": "#148D9D"
+		},
+		"K2BTtestimonialBorder": {
+			"type": "object",
+			"default": {"color": "#0FAE96", "style": "solid", "width": "1px"}
+		},
+		"K2BTtestimonialBorderRadius": {
+			"type": "object",
+			"default": {"top": "8px", "right": "8px", "bottom": "8px", "left": "8px"}
+		},
+		"K2BTauthorNameAlignment": {
+			"type": "string"
+		},
+		"K2BTwidth": {
+			"type": "number",
+			"default": 50
+		},
+		"K2BTposition": {
+			"type": "string",
+			"default": "center"
+		},
+		"K2BTBottomSpacing": {
+			"type": "number",
+			"default": 15
+		}
+	}		
+}

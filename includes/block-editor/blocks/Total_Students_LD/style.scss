@@ -1,0 +1,30 @@
+.k2_ld_total_course_parent_container_save{
+  display: flex;
+  width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  align-items: center;
+
+  .k2_ld_total_course_left{
+    width: 80%;
+    h4{
+      margin: 0;
+    }
+    h3{
+      margin: 0;
+    }
+  }
+  .k2_ld_total_course_right{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .k2_ld_total_course_image_container{
+      padding: 15px;
+      display: flex;
+      img{
+        width: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/creative-paragraph",
+	"version": "0.1.0",
+	"title": "Creative Paragraph",
+	"category": "k2-blocks",
+	"description": "Creact Interactive paragraphs and write text anywhere.",
+	"keywords":  [ "Text Editor", "K2 Blocks", "para" , "paragraph"],
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+            "margin": true, 
+            "padding": true, 
+            "blockGap": true  
+        }
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes":{
+		"EditorFontSize": {
+		  "type": "number",
+		  "default": 2
+		},
+		"EditorFontFamily": {
+		  "type": "string",
+		  "default": "inherit"
+		},
+		"EditorTextColor": {
+		  "type": "string",
+		  "default": "black"
+		},
+		"EditorTextAlignment": {
+		  "type": "string",
+		  "default": "left"
+		},
+		"EditorFontWeight": {
+		  "type": "string",
+		  "default": "normal"
+		},
+		"EditorTextTransform": {
+		  "type": "string",
+		  "default": "none"
+		},
+		"EditorLineHeight": {
+		  "type": "number",
+		  "default": 1.5
+		},
+		"EditorLetterSpacing": {
+		  "type": "number",
+		  "default": 1
+		},
+		"EditorTextDecoration": {
+		  "type": "string",
+		  "default": "none"
+		},
+		"EditorTextStyle": {
+		  "type": "string",
+		  "default": "normal"
+		},
+		"EditorContent": {
+		  "type": "string",
+		  "default": "Write some text here..."
+		},
+		"EditorPadding": {
+		  "type": "object",
+		  "default": {
+			"top": "8px",
+			"right": "8px",
+			"bottom": "8px",
+			"left": "8px"
+		  }
+		},
+		"EditorMargin": {
+		  "type": "object",
+		  "default": {
+			"top": "8px",
+			"right": "8px",
+			"bottom": "8px",
+			"left": "8px"
+		  }
+		},
+		"EditorTopMargin": {
+		  "type": "number",
+		  "default": 0
+		},
+		"EditorRightMargin": {
+		  "type": "number",
+		  "default": 0
+		},
+		"EditorBottomMargin": {
+		  "type": "number",
+		  "default": 0
+		},
+		"EditorLeftMargin": {
+		  "type": "number",
+		  "default": 0
+		},
+		"EditorTopBorder": {
+		  "type": "number",
+		  "default": 10
+		},
+		"EditorRightBorder": {
+		  "type": "number",
+		  "default": 10
+		},
+		"EditorBottomBorder": {
+		  "type": "number",
+		  "default": 10
+		},
+		"EditorLeftBorder": {
+		  "type": "number",
+		  "default": 10
+		},
+		"EditorBorderStyle": {
+		  "type": "string",
+		  "default": "none"
+		},
+		"EditorBorderColor": {
+		  "type": "string",
+		  "default": "black"
+		},
+		"EditorBackgroundColor": {
+		  "type": "string",
+		  "default": "rgb(255, 255, 255)"
+		},
+		"EditorWidgetWidth": {
+		  "type": "number",
+		  "default": 100
+		}
+	}
+	  
+	  
+	  
+	
+}

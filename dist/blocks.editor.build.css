@@ -1,0 +1,834 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.k2-pb-inspector-alignment {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.k2-pb-inspector-alignment-single {
+  -ms-flex-preferred-size: 33.33%;
+      flex-basis: 33.33%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  cursor: pointer; }
+
+.k2-pb-alignment-icon {
+  font-size: 15px;
+  padding: 0.8em; }
+
+.k2-pg-popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* The actual popup */
+.k2-pg-popup .k2-pg-popup-text {
+  width: 230px;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px 0;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%;
+  right: 50%;
+  border: 2px solid #1995ad; }
+
+.k2-pb-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 2em;
+  border: 1px solid grey; }
+
+.k2-pb-active {
+  color: orange;
+  background-color: #FED8B1; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/**
+ * #.# Styles
+ *
+ * CSS for BackEnd.
+ */
+.k2-cta-image-select-control {
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer; }
+
+.k2-cta-image-select-control i {
+  font-size: 48px;
+  color: #ddd; }
+
+.k2-cta-inspector-control-classic-position {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.k2-cta-inspector-control-classic-position-single {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  cursor: pointer; }
+
+.k2-cta-alignment-icon {
+  font-size: 15px;
+  padding: 0.8em; }
+
+.k2-cta-active {
+  color: orange;
+  background-color: #FED8B1; }
+
+.k2-cta-popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* The actual popup */
+.k2-cta-popup .k2-cta-popup-text {
+  width: 230px;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px 0;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%;
+  right: 50%;
+  border: 2px solid #1995ad; }
+
+.k2-cta-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 2em;
+  border: 1px solid grey; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.k2-ib-inspector-control-alignment {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.k2-ib-inspector-control-alignment-single {
+  -ms-flex-preferred-size: 33.33%;
+      flex-basis: 33.33%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  cursor: pointer; }
+
+.k2-ib-alignment-icon-style {
+  font-size: 15px;
+  padding: 0.8em; }
+
+.k2-ib-icon-list-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 1em;
+  margin-bottom: 2em; }
+
+.k2-ib-icon-list-sub-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  max-height: 120px;
+  overflow: auto; }
+
+.k2-ib-icon-list-sub-wrapper span {
+  font-size: 15px;
+  padding: 0.8em; }
+
+.k2-ib-icon-list-sub-wrapper span:hover {
+  color: orange;
+  background-color: #FED8B1;
+  cursor: pointer; }
+
+.k2-ib-active {
+  color: orange;
+  background-color: #FED8B1; }
+
+.k2-ib-popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* The actual popup */
+.k2-ib-popup .k2-ib-popup-text {
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px 0;
+  position: absolute;
+  z-index: 100;
+  right: 0px;
+  border: 2px solid #1995ad; }
+
+.k2-ib-popup-text.down {
+  top: 100%; }
+
+.k2-ib-popup-text.up {
+  bottom: 100%; }
+
+.k2-ib-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 2em;
+  border: 1px solid grey; }
+
+.components-tab-panel__tabs {
+  -ms-flex-pack: space-evenly;
+      justify-content: space-evenly;
+  margin-bottom: 7px; }
+
+.active-tab {
+  background: #7BDCB5;
+  color: white; }
+
+.k2-ib-button-container {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+
+.k2-ib-text-image-area {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.components-datetime {
+  padding: 0 !important; }
+
+.k2-tw-inspector-popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* The actual popup */
+.k2-tw-inspector-popup .k2-tw-inspector-popuptext {
+  width: 230px;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px 0;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%;
+  right: 50%;
+  border: 2px solid #1995ad; }
+
+.k2-tw-inspector-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 2em;
+  border: 1px solid grey; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.k2-counter-inspector-popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* The actual popup */
+.k2-counter-inspector-popup .k2-counter-inspector-popuptext {
+  width: 230px;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px 0;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%;
+  right: 50%;
+  border: 2px solid #1995ad; }
+
+.k2-cw-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.k2-counter-inspector-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 2em;
+  border: 1px solid grey; }
+
+.k2-cw-advance-background {
+  background-color: #888;
+  width: 10%;
+  padding: 40px; }
+
+.K2-cw-right-container {
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.k2-contentadvance-flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.k2-cw-round {
+  border-radius: 50%; }
+
+.k2-cw-halo {
+  border-radius: 50%; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.k2-modal-inspector-popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* The actual popup */
+.k2-modal-inspector-popup .k2-modal-inspector-popuptext {
+  width: 230px;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px 0;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%;
+  right: 50%;
+  border: 2px solid #1995ad; }
+
+.k2-modal-inspector-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 2em;
+  border: 1px solid grey; }
+
+.k2-modal-button {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.k2-modal-image {
+  cursor: pointer;
+  -o-object-fit: cover;
+     object-fit: cover; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.editor-styles-wrapper * {
+  margin-bottom: 0px; }
+
+.k2-CB-inspector-popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* The actual popup */
+.k2-CB-inspector-popup .k2-CB-inspector-popuptext {
+  width: 230px;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px 0;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%;
+  right: 50%;
+  border: 2px solid #1995ad; }
+
+.k2-CB-inspector-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 2em;
+  border: 1px solid grey; }
+
+.k2-CB-inspector-control-alignment {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.k2-CB-inspector-control-alignment-single {
+  -ms-flex-preferred-size: 33.33%;
+      flex-basis: 33.33%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  cursor: pointer; }
+
+.k2-CB-alignment-icon-style {
+  font-size: 15px;
+  padding: 0.8em; }
+
+.k2-CB-icon-list-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 1em;
+  margin-bottom: 2em; }
+
+.k2-CB-icon-list-sub-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  max-height: 120px;
+  overflow: auto; }
+
+.k2-CB-icon-list-sub-wrapper span {
+  font-size: 15px;
+  padding: 0.8em; }
+
+.k2-CB-icon-list-sub-wrapper span:hover {
+  color: orange;
+  background-color: #FED8B1;
+  cursor: pointer; }
+
+.k2-CB-active {
+  color: orange;
+  background-color: #FED8B1; }
+
+.k2-CB-popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* The actual popup */
+.k2-CB-popup .k2-CB-popup-text {
+  width: 230px;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px 0;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%;
+  right: 50%;
+  border: 2px solid #1995ad; }
+
+.k2-CB-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 2em;
+  border: 1px solid grey; }
+
+.k2-CB-image-select-control {
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer; }
+
+.k2-CB-image-select-control i {
+  font-size: 48px;
+  color: #ddd; }
+
+.gradient-button {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border: none; }
+
+.hover_slide-btn {
+  -webkit-animation: slide-right .6s ease-out both;
+          animation: slide-right .6s ease-out both; }
+
+/* arrow animation */
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+    opacity: 1; } }
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+    opacity: 1; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.k2-AB-image-select-control {
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer; }
+
+.k2-AB-image-select-control i {
+  font-size: 48px;
+  color: #ddd; }
+
+.k2-AB-inspector-control-classic-position {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.k2-AB-inspector-control-classic-position-single {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  cursor: pointer; }
+
+.k2-AB-alignment-icon {
+  font-size: 15px;
+  padding: 0.8em; }
+
+.k2-AB-active {
+  color: orange;
+  background-color: #FED8B1; }
+
+.k2-AB-popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* The actual popup */
+.k2-AB-popup .k2-AB-popup-text {
+  width: 230px;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px 0;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%;
+  right: 50%;
+  border: 2px solid #1995ad; }
+
+.k2-AB-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 2em;
+  border: 1px solid grey; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.k2-te-popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.k2-te-dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 2em;
+  border: 1px solid grey; }
+
+.k2-te-popup .k2-te-popup-text {
+  width: 230px;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px 0;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%;
+  right: 50%;
+  border: 2px solid #1995ad; }
+
+.k2-te-alignment-icon {
+  font-size: 15px;
+  padding: 0.8em; }
+
+.k2-te-inspector-control-classic-position {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.k2-te-inspector-control-classic-position-single {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  cursor: pointer; }
+
+.k2-te-active {
+  color: orange;
+  background-color: #FED8B1; }
+
+.k2-te-dimension-control {
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.k2-te-dimension-control input {
+  width: 20%;
+  font-size: smaller;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 5px; }
+
+.k2-te-dimension-control-mt {
+  margin-top: 10px; }
+
+#k2-te-wrapper {
+  width: 100% !important; }
+
+.k2-te-paragraph {
+  margin: 0 !important; }
+
+@media (min-width: 320px) and (max-width: 800px) {
+  #k2-te-parent {
+    width: 100% !important;
+    margin-left: 0 !important; } }
+
+@media (min-width: 800px) and (max-width: 1024px) {
+  #k2-te-parent {
+    margin-left: 0 !important; } }
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  #k2-te-parent {
+    width: 100% !important; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.k2-bt-parent-container {
+  padding: 2rem; }
+  .k2-bt-parent-container .k2-bt-top-section {
+    display: -ms-flexbox;
+    display: flex;
+    position: relative; }
+    .k2-bt-parent-container .k2-bt-top-section .k2-bt-image-container {
+      position: relative; }
+      .k2-bt-parent-container .k2-bt-top-section .k2-bt-image-container .k2-bt-quotation-mark-container {
+        position: absolute;
+        top: 35px;
+        right: -15px;
+        line-height: 0;
+        font-size: 90px; }
+  .k2-bt-parent-container .k2-bt-authorName p {
+    margin: 0 !important; }
+
+.k2-bt-author-image img {
+  border-radius: 100px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.Text-gradient-class {
+  background-size: 100%;
+  background-repeat: repeat;
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent; }
+
+.bubble-text {
+  color: transparent;
+  -webkit-text-stroke: 2px #000;
+  background-clip: text; }

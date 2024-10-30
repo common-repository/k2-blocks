@@ -1,0 +1,105 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/totaltopics",
+	"version": "0.1.0",
+	"title": "Total Topics",
+	"category": "k2-blocks-learndash",
+	"icon": "smiley",
+	"description": "Displays a card with design effects enable user to show total number of Topics in a lesson of a course.",
+	"keywords":  [ "learndash","ld", "K2 Blocks", "Topics" ],
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+            "margin": true, 
+            "padding": true, 
+            "blockGap": true  
+        }
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes": {
+		"k2_total_courses_topic":{
+			"type":"array"
+		},
+		"SelectedK2CourseForTopic":{
+			"type":"string"
+		},
+		"SelectedK2LessonForTopic":{
+			"type":"string"
+		},
+		"NumberOfTopics":{
+			"type":""
+		},
+		"NumberOfLessons":{
+			"type":""
+		},
+		"K2ldmainContPaddingTopics": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2ldmainContMarginTopics":{
+			"type": "object",
+			"default": {"top": "0px", "right": "6px", "bottom": "0px", "left": "0px"}
+		},
+		"K2ldmainContBorderTopics": {
+			"type": "object",
+			"default": {"color": "#0FAE96", "style": "solid", "width": "1px"}
+		},
+		"K2ldmainContBorderRadiusTopics": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2ldHeadingSizeTopics": {
+			"type": "number",
+			"default": 26
+		},
+		"K2ldheadingFontFamTopics": {
+			"type": "string",
+			"default":"Montserrat, san-serif"
+		},
+		"K2ldheadingFontWeightTopics": {
+			"type": "string"
+		},
+		"K2ldheadingColorTopics":{
+			"type":"string",
+			"default":"#1D1D1D"
+		},
+		"K2ldCountSizeTopics": {
+			"type": "number",
+			"default": 26
+		},
+		"K2ldCountFontFamTopics": {
+			"type": "string"
+		},
+		"K2ldCountFontWeightTopics": {
+			"type": "string"
+		},
+		"K2ldCountColorTopicss": {
+			"type": "string"
+		},
+		"k2ldImageTopics": {
+			"type": "string",
+			"default": "http://k2blocks.com/wp-content/uploads/2024/04/Icon-3.png"
+		},
+		"k2ldImageWidthTopics": {
+			"type": "number",
+			"default": 100
+		},
+		"K2ldImageBackgroundTopics": {
+			"type": "string",
+			"default":"#1AA379"
+		},
+		"K2ldImageContBorderRadiusTopics": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2LDImageAlignmentTopics": {
+			"type": "string",
+			"default": "center"
+		}
+	}
+}

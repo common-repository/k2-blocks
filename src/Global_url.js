@@ -1,0 +1,1 @@
+export const baseurl = 'http://localhost/K2%20Blocks/';

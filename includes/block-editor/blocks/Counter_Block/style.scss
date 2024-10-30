@@ -1,0 +1,88 @@
+.k2-cw-container {
+  background: none;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: auto;
+}
+
+.k2-cw-container .k2-cw-content .k2-cw-number {
+  padding: 0px;
+  margin: 0;
+  font-size: 50px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: black;
+}
+
+.k2-cw-container .k2-cw-content .k2-cw-title {
+  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+}
+
+.k2-cw-container.k2-cw-round {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.k2-cw-container.k2-cw-square {
+  background-color: white;
+}
+
+.k2-cw-container.k2-cw-halo {
+  border-radius: 50%;
+}
+
+
+.k2-cw-advance-background {
+  background-color: #888;
+  // border-radius: 50%;
+  width: 8%;
+  padding: 36px;
+}
+
+.K2-cw-right-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.k2-contentadvance-flex {
+  display: flex;
+  align-items: center;
+}
+
+.k2-cw-round {
+  border-radius: 50%;
+}
+
+.k2-cw-halo {
+  border-radius: 50%;
+}
+
+span.k2-cw-span-number {
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .k2-cw-advance-background {
+      padding: 20px;
+  }
+
+  .k2-cw-span-number {
+      font-size: 0.6em;
+  }
+
+  .k2-cw-postfix {
+      font-size: 0.6em;
+  }
+
+  .k2-cw-title {
+      font-size: 0.6em !important;
+  }
+
+  .k2-cw-container {
+      width: 160px !important;
+  }
+}

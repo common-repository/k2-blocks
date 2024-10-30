@@ -1,0 +1,101 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/counter-block",
+	"version": "0.1.0",
+	"title": "Counter",
+	"category": "k2-blocks",
+	"description": "Creact Interactive Counter.",
+	"keywords":  [ "Counter", "K2 Blocks", "number"],
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+            "margin": true, 
+            "padding": true, 
+            "blockGap": true  
+        }
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes":{
+		"counterLayout": {
+			"type": "string",
+			"default": "classic"
+		},
+		"widgetSize": {
+			"type": "number",
+			"default": 150
+		},
+		"paddingTop": {
+			"type": "number",
+			"default": 10
+		},
+		"backgroundColor": {
+			"type": "string",
+			"default": "#26C6DA"
+		},
+		"haloColor": {
+			"type": "string",
+			"default": "#C5E1A5"
+		},
+		"titleFontColor": {
+			"type": "string",
+			"default": "black"
+		},
+		"numberFontColor": {
+			"type": "string",
+			"default": "black"
+		},
+		"titleFontFamily": {
+			"type": "string",
+			"default": "Comic Sans, Comic Sans MS, cursive"
+		},
+		"numberFontFamily": {
+			"type": "string",
+			"default": "Comic Sans, Comic Sans MS, cursive"
+		},
+		"numberFontSize": {
+			"type": "number",
+			"default": 3
+		},
+		"titleFontSize": {
+			"type": "number",
+			"default": 1
+		},
+		"counterShapeClass": {
+			"type": "string",
+			"default": "k2-cw-round"
+		},
+		"number": {
+			"type": "string",
+			"default": "0"
+		},
+		"type": {
+			"type": "string",
+			"default": "number"
+		},
+		"title": {
+			"type": "string",
+			"default": "Title"
+		},
+		"date": {
+			"type": "object",
+			"default": {
+				"day": 1,
+				"month": 0,
+				"year": 2020
+			}
+		},
+		"prefix": {
+			"type": "string",
+			"default": ""
+		},
+		"postfix": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}

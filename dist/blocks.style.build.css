@@ -1,0 +1,639 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/**
+ * #.# Styles
+ *
+ * CSS for FrontEnd + BackEnd.
+ */
+.k2-pb-parent-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 2em 0.5em; }
+
+.k2-pb-outside-container {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.2), inset 0 -2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.2), inset 0 -2px 1px rgba(0, 0, 0, 0.2); }
+
+.k2-pb-inside-container {
+  display: block;
+  background-color: green;
+  position: relative;
+  overflow: hidden;
+  background-size: 100%;
+  -webkit-box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.2), inset 0 -2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.2), inset 0 -2px 1px rgba(0, 0, 0, 0.2); }
+
+.k2-pb-inside-container span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  background-image: -webkit-linear-gradient(45deg, white 25%, transparent 25%, transparent 50%, white 50%, white 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, white 25%, transparent 25%, transparent 50%, white 50%, white 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, white 25%, transparent 25%, transparent 50%, white 50%, white 75%, transparent 75%, transparent);
+  background-size: 30px 30px;
+  -webkit-animation: k2-pb-candy-effect 0.5s infinite linear;
+          animation: k2-pb-candy-effect 0.5s infinite linear; }
+
+@-webkit-keyframes k2-pb-candy-effect {
+  from {
+    background-position: 0 100%; }
+  to {
+    background-position: 30px 100%; } }
+
+@keyframes k2-pb-candy-effect {
+  from {
+    background-position: 0 100%; }
+  to {
+    background-position: 30px 100%; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/**
+ * #.# Styles
+ *
+ * CSS for FrontEnd + BackEnd.
+ */
+.k2-cta-boxed-container {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.k2-cta-cover-parent-container {
+  background-color: lightgray;
+  background-position: center;
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative; }
+
+.k2-cta-cover-text-container {
+  width: 100%;
+  padding: 2em; }
+
+.k2-cta-cover-paragraph-heading {
+  color: white; }
+
+.k2-cta-cover-button-styling {
+  padding: 0.5em 1em;
+  display: inline-block;
+  font-family: 'poppins';
+  font-weight: 500;
+  line-height: 1 !important;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.k2-cta-cover-button-styling:hover {
+  cursor: pointer; }
+
+.k2-cta-classic-parent-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative; }
+
+.k2-cta-classic-image-container {
+  background-color: lightgray;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  background-size: cover;
+  background-position: 50%;
+  position: relative; }
+
+.k2-cta-classic-text-container {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  vertical-align: middle;
+  padding: 2em; }
+
+.k2-cta-classic-paragraph-heading {
+  color: #002147; }
+
+.k2-cta-classic-button-styling {
+  padding: 0.5em 1em;
+  display: inline-block;
+  font-family: 'poppins';
+  font-weight: 500;
+  line-height: 1 !important;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.k2-cta-classic-button-styling:hover {
+  cursor: pointer; }
+
+@media (max-width: 700px) {
+  .k2-cta-classic-image-container {
+    -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+    min-height: 65vh; }
+  .k2-cta-classic-text-container {
+    -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.k2-ib-widget-container {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%; }
+
+div.k2-ib-container {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: end;
+      align-items: flex-end; }
+
+div.k2-ib-box {
+  display: block; }
+
+.k2-ib-button-container {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+
+.k2-ib-text-image-area {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  width: 100%; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.k2-tw-parent-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-color: transparent; }
+
+.k2-tw-block-container {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  max-width: 100%;
+  margin: 0.5%;
+  padding: 1%; }
+
+.k2-tw-value-container {
+  font-family: "Montserrat",Sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 1.2em;
+  padding: 20px; }
+
+.k2-tw-text-container {
+  font-size: 1.2vw;
+  text-align: center;
+  font-family: "Montserrat",Sans-serif;
+  font-weight: 500; }
+
+@media (max-width: 767px) {
+  .k2-tw-value-container {
+    font-size: 7vw;
+    padding: 9px; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.k2-cw-container {
+  background: none;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: auto; }
+
+.k2-cw-container .k2-cw-content .k2-cw-number {
+  padding: 0px;
+  margin: 0;
+  font-size: 50px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: black; }
+
+.k2-cw-container .k2-cw-content .k2-cw-title {
+  font-family: Verdana, Geneva, sans-serif;
+  color: black; }
+
+.k2-cw-container.k2-cw-round {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; }
+
+.k2-cw-container.k2-cw-square {
+  background-color: white; }
+
+.k2-cw-container.k2-cw-halo {
+  border-radius: 50%; }
+
+.k2-cw-advance-background {
+  background-color: #888;
+  width: 8%;
+  padding: 36px; }
+
+.K2-cw-right-container {
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.k2-contentadvance-flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.k2-cw-round {
+  border-radius: 50%; }
+
+.k2-cw-halo {
+  border-radius: 50%; }
+
+span.k2-cw-span-number {
+  font-weight: bold; }
+
+@media only screen and (max-width: 600px) {
+  .k2-cw-advance-background {
+    padding: 20px; }
+  .k2-cw-span-number {
+    font-size: 0.6em; }
+  .k2-cw-postfix {
+    font-size: 0.6em; }
+  .k2-cw-title {
+    font-size: 0.6em !important; }
+  .k2-cw-container {
+    width: 160px !important; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.k2-modal-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.k2-modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 10;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+
+.k2-modal-backend {
+  -webkit-box-shadow: 1px 1px 20px grey;
+          box-shadow: 1px 1px 20px grey;
+  border-radius: 20px;
+  background-color: #fefefe;
+  margin: 5% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: none;
+  width: 100%;
+  /* Could be more or less, depending on screen size */
+  margin-top: 2em;
+  position: relative; }
+
+/* Modal Content/Box */
+.k2-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: none;
+  width: 60%;
+  /* Could be more or less, depending on screen size */
+  -webkit-box-shadow: 1px 1px 20px grey;
+          box-shadow: 1px 1px 20px grey;
+  border-radius: 20px;
+  position: relative; }
+
+.k2-modal-close {
+  color: #aaa;
+  font-size: 2em !important;
+  font-weight: bold;
+  display: block;
+  text-align: right;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.k2-modal-close:hover,
+.k2-modal-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer; }
+
+.k2-modal-button {
+  background-color: #43cea2;
+  border: none;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  font-size: 1em; }
+
+.k2-modal-fade-in {
+  -webkit-animation: opac 0.8s;
+          animation: opac 0.8s; }
+
+@-webkit-keyframes opac {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes opac {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@media (max-width: 767px) {
+  .k2-modal-content {
+    width: 90%;
+    margin: 30% auto; } }
+
+.k2-modal-image {
+  cursor: pointer;
+  -o-object-fit: cover;
+     object-fit: cover; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.a {
+  border: solid 0px transparent;
+  text-decoration: none; }
+
+.Outer {
+  display: -ms-flexbox;
+  display: flex; }
+
+.gradient-button {
+  font-family: "poppins", Gadget, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 15px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #00BCD4;
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -o-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.gradient-button-1:hover {
+  -webkit-transition-delay: 0.05s;
+       -o-transition-delay: 0.05s;
+          transition-delay: 0.05s; }
+
+.gradient-button-1:hover {
+  -webkit-transition-delay: 0.05s;
+       -o-transition-delay: 0.05s;
+          transition-delay: 0.05s; }
+
+.hover_slide-btn {
+  -webkit-animation: slide-right .6s ease-out both;
+          animation: slide-right .6s ease-out both; }
+
+/* arrow animation */
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+    opacity: 1; } }
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+    opacity: 1; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.k2-AB-boxed-container {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%; }
+
+.K2-AB-cover-parent-container-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative; }
+
+.k2-AB-cover-parent-container {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+.k2-AB-cover-text-container {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  height: 100%; }
+
+.k2-AB-cover-parent-container:hover .k2-AB-cover-text-container {
+  opacity: 1;
+  -webkit-box-shadow: inset 0 0 0 100vh rgba(255, 0, 0, 0.7);
+          box-shadow: inset 0 0 0 100vh rgba(255, 0, 0, 0.7);
+  -webkit-transform: translate(50px, 50px);
+      -ms-transform: translate(50px, 50px);
+          transform: translate(50px, 50px); }
+
+.k2-AB-cover-heading-style {
+  color: white !important; }
+
+.k2-AB-cover-paragraph-heading {
+  color: white;
+  font-size: 1.7em; }
+
+@media (max-width: 700px) {
+  .k2-AB-cover-parent-container:hover .k2-AB-cover-text-container {
+    -webkit-transform: translate(0px, 50px);
+        -ms-transform: translate(0px, 50px);
+            transform: translate(0px, 50px); } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+#k2-te-wrapper {
+  width: 100% !important; }
+
+.k2-te-paragraph {
+  margin: 0 !important; }
+
+@media (min-width: 320px) and (max-width: 800px) {
+  #k2-te-parent {
+    width: 100% !important;
+    margin-left: 0 !important; } }
+
+@media (min-width: 800px) and (max-width: 1024px) {
+  #k2-te-parent {
+    margin-left: 0 !important; } }
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  #k2-te-parent {
+    width: 100% !important; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.k2-bt-parent-container {
+  padding: 2rem; }
+  .k2-bt-parent-container .k2-bt-top-section {
+    display: -ms-flexbox;
+    display: flex; }
+    .k2-bt-parent-container .k2-bt-top-section .k2-bt-image-container {
+      position: relative;
+      margin-bottom: 15px; }
+      .k2-bt-parent-container .k2-bt-top-section .k2-bt-image-container .k2-bt-quotation-mark-container {
+        position: absolute;
+        line-height: 0;
+        top: 35px;
+        right: -15px;
+        font-size: 90px; }
+  .k2-bt-parent-container .k2-bt-authorName p {
+    margin: 0 !important; }
+
+.k2-bt-image-container img {
+  border-radius: 100px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.Text-gradient-class {
+  background-size: 100%;
+  background-repeat: repeat;
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent; }
+
+.bubble-text {
+  color: transparent;
+  -webkit-text-stroke: 2px #000;
+  background-clip: text; }

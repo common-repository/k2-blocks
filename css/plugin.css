@@ -1,0 +1,238 @@
+/* .wrap {
+    display: flex;
+    justify-content: center;
+} */
+
+.k2-blocks-dashboad-welcome {
+    margin: 20px 20px 20px 0px;
+}
+
+.k2-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#adminmenu .wp-menu-image img {
+    width: 12px !important;
+}
+
+.k2-blocks-dashboard-nav {
+    padding: 10px 63px;
+    background: white;
+    border-radius: 6px;
+}
+
+.upgrade-to-pro-cont p {
+    margin: 0;
+}
+
+.upgrade-to-pro-cont p a {
+    text-decoration: none;
+    font-family: 'raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #40CAAA;
+
+}
+
+.k2-dashboard-header-logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.k2-dashboard-header-logo a {
+    text-decoration: none;
+}
+
+.k2-dashboard-header-logo a h1 {
+    font-size: 28px;
+    font-family: 'raleway', sans-serif;
+}
+
+.k2-dashboard-header-logo a h1 span:nth-child(2) {
+    font-size: 18px;
+}
+
+.k2-blocks-dashboard-welocme-container {
+    display: flex;
+    width: 100%;
+    margin: 50px 0px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.k2-blocks-dashboard-welocme-container p {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.dashboard-welocme-text h1 {
+    font-size: 26px;
+    font-family: 'raleway', sans-serif;
+    color: #2c2a4a;
+}
+
+.k2-blocks-dashboard-left-container {
+    background: white;
+    border-radius: 6px;
+    padding: 18px 18px 30px 18px;
+    width: 55%;
+    box-shadow: 1px 1px 10px 5px #92ff9940;
+}
+
+.k2-blocks-dashboard-right-container {
+    width: 40%;
+}
+
+.k2-blocks-right-main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.k2-blocks-right-items {
+    background: white;
+    border-radius: 6px;
+    padding: 18px 18px 45px 18px;
+    box-shadow: 1px 1px 10px 5px #92ff9940;
+}
+
+.k2-blocks-right-items h3 {
+    font-family: 'raleway', sans-serif;
+    color: #2c2a4a;
+}
+
+.k2-blocks-youtube-video-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.k2-blocks-youtube-video-cont iframe {
+    height: 220px;
+}
+
+.k2-dashboard-cards-buttons {
+    background-color: #40CAAA;
+    padding: 6px 12px;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.k2-dashboard-cards-buttons:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.second-card-k2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 18px;
+}
+
+.colored_k2-cards {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 16px;
+    background: #2C2A4A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-card-k2 div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+:root {
+    --shine-degree: 120deg;
+    --shine-color: rgba(0, 0, 0, 0.05);
+    /* --shine-effect: linear-gradient(var(--shine-degree), transparent, var(--shine-color), transparent); */
+    --shine-effect: linear-gradient(135deg, rgba(255, 255, 255, 0) 40%, rgba(241, 241, 241, 0.5) 51%, rgba(225, 225, 225, 0.2) 81%, rgba(246, 246, 246, 0) 61%);
+    --shine-transition: all 0.65s ease-in-out;
+}
+
+.colored_k2-cards::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--shine-effect);
+}
+
+.btn-anim::before {
+    animation: shine 5s ease-in-out infinite;
+}
+
+@keyframes shine {
+    0% {
+        left: -100%;
+        transition-property: left;
+    }
+
+    20%,
+    100% {
+        left: 100%;
+        transition-property: left;
+    }
+}
+
+.revert_buttons-k2 {
+    background-color: #2c2a4a !important;
+}
+
+.last-k2-card-item-rating-child {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+}
+
+.last-k2-card-item-rating-child h3 {
+    color: white;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.last-k2-card-item-rating-child div {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.last-k2-card-item-rating-child img {
+    width: 20%;
+}
+
+.last-k2-card-item-rating-child p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.color-white {
+    background-color: white !important;
+    color: #2C2A4A !important;
+    margin-top: 36px;
+    font-weight: 600;
+}
+.dashicons-k2-icon{
+    position: relative;
+}
+.dashicons-k2-icon::before {
+    content: url('../k2-icon-gut.png');
+    position: absolute;
+    top: -7px;
+    left: 0px;
+}

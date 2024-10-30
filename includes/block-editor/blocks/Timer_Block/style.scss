@@ -1,0 +1,39 @@
+
+.k2-tw-parent-container{
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+
+
+.k2-tw-block-container{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0.5%;
+  padding: 1%;
+}
+
+.k2-tw-value-container{
+  font-family: "Montserrat",Sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 1.2em;
+  padding: 20px;
+}
+
+.k2-tw-text-container{
+  font-size: 1.2vw;
+  text-align: center;
+  font-family: "Montserrat",Sans-serif;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .k2-tw-value-container {
+	font-size: 7vw;
+	padding: 9px;
+  }
+}

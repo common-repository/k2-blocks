@@ -1,0 +1,123 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/totalquizzes",
+	"version": "0.1.0",
+	"title": "Total Quizzes",
+	"category": "k2-blocks-learndash",
+	"icon": "smiley",
+	"description": "Displays a card with design effects enable user to show total number of Quizzes in courses, lessons adn topics.",
+	"keywords":  [ "learndash","ld", "K2 Blocks", "Topics" ],
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+            "margin": true, 
+            "padding": true, 
+            "blockGap": true  
+        }
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes": {
+		"k2_select_filter_for_quiz":{
+			"type":"string"
+		},
+		"k2_total_courses_quiz":{
+			"type":"array"
+		},
+		"k2_total_lessons_quiz":{
+			"type":"array"
+		},
+		"k2_total_group_quiz":{
+			"type":"array"
+		},
+		"k2_total_topic_quiz":{
+			"type":"array"
+		},
+		"SelectedK2CourseForQuiz":{
+			"type":"string"
+		},
+		"SelectedK2LessonForQuiz":{
+			"type":"string"
+		},
+		"SelectedK2GroupForQuiz":{
+			"type":"string"
+		},
+		"SelectedK2TopicForQuiz":{
+			"type":"string"
+		},
+		"NumberOfQuizs":{
+			"type":""
+		},
+		"NumberOfLessons":{
+			"type":""
+		},
+		"K2ldmainContPaddingQuizs": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2ldmainContMarginQuizs":{
+			"type": "object",
+			"default": {"top": "0px", "right": "6px", "bottom": "0px", "left": "0px"}
+		},
+		"K2ldmainContBorderQuizs": {
+			"type": "object",
+			"default": {"color": "#0FAE96", "style": "solid", "width": "1px"}
+		},
+		"K2ldmainContBorderRadiusQuizs": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2ldHeadingSizeQuizs": {
+			"type": "number",
+			"default": 26
+		},
+		"K2ldheadingFontFamQuizs": {
+			"type": "string",
+			"default":"Montserrat, san-serif"
+		},
+		"K2ldheadingFontWeightQuizs": {
+			"type": "string"
+		},
+		"K2ldheadingColorQuizs":{
+			"type":"string",
+			"default":"#1D1D1D"
+		},
+		"K2ldCountSizeQuizs": {
+			"type": "number",
+			"default": 26
+		},
+		"K2ldCountFontFamQuizs": {
+			"type": "string"
+		},
+		"K2ldCountFontWeightQuizs": {
+			"type": "string"
+		},
+		"K2ldCountColorQuizs": {
+			"type": "string"
+		},
+		"k2ldImageQuizs": {
+			"type": "string",
+			"default": "http://k2blocks.com/wp-content/uploads/2024/04/quizz.png"
+		},
+		"k2ldImageWidthQuizs": {
+			"type": "number",
+			"default": 100
+		},
+		"K2ldImageBackgroundQuizs": {
+			"type": "string",
+			"default":"#3D7AB3"
+		},
+		"K2ldImageContBorderRadiusQuizs": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2LDImageAlignmentQuizs": {
+			"type": "string",
+			"default": "center"
+		}
+	}
+}

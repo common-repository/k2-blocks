@@ -1,0 +1,33 @@
+.k2-bt-parent-container {
+    padding: 2rem;
+
+    .k2-bt-top-section {
+        display: flex;
+
+        .k2-bt-image-container {
+            position: relative;
+            margin-bottom: 15px;
+
+            .k2-bt-quotation-mark-container {
+                position: absolute;
+                line-height: 0;
+                top: 35px;
+                right: -15px;
+                font-size: 90px;
+            }
+        }
+
+    }
+
+    .k2-bt-authorName {
+        p {
+            margin: 0 !important;
+        }
+    }
+}
+
+.k2-bt-image-container {
+    img {
+        border-radius: 100px;
+    }
+}

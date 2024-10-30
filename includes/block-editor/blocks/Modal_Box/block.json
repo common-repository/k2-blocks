@@ -1,0 +1,123 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/modal-block",
+	"version": "0.1.0",
+	"title": "Modal box",
+	"category": "k2-blocks",
+	"description": "As the Gutenberg editor continues to revolutionize WordPress web design, the introduction of K2-Blocks brings an array of exciting new options for website developers.",
+	"keywords":  [ "Modal", "K2 Blocks", "box" ],
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+            "margin": true, 
+            "padding": true, 
+            "blockGap": true  
+        }
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes": {
+        "type": {
+            "type": "string",
+            "default": "button"
+        },
+        "popupDelay": {
+            "type": "number",
+            "default": 3
+        },
+        "buttonColor": {
+            "type": "string",
+            "default": "#43cea2"
+        },
+        "EnableButtonText": {
+            "type": "boolean",
+            "default": true
+        },
+        "buttonText": {
+            "type": "string",
+            "default": "Open Sesame"
+        },
+        "buttonTextSize": {
+            "type": "string",
+            "default": 1
+        },
+        "ModalButtonTextWeight": {
+            "type": "string"
+        },
+        "buttonWidth": {
+            "type": "number",
+            "default": 2
+        },
+        "buttonHeight": {
+            "type": "number",
+            "default": 1
+        },
+        "buttonRadius": {
+            "type": "number",
+            "default": 0
+        },
+        "closeButtonPosition": {
+            "type": "object",
+            "default": {
+                "top": 0,
+                "right": 0,
+                "text": "topright"
+            }
+        },
+        "textColor": {
+            "type": "string",
+            "default": "white"
+        },
+        "textFontFamily": {
+            "type": "string",
+            "default": ""
+        },
+        "ModalBoxIconType": {
+            "type": "string",
+            "default": "fa fa-rocket"
+        },
+        "modalIconPosition": {
+            "type": "string",
+            "default": "row"
+        },
+        "modalIconTextGap": {
+            "type": "number",
+            "default": 1
+        },
+        "K2modalImage": {
+            "type": "string",
+            "default": "http://k2blocks.com/wp-content/uploads/2023/07/Rectangle-90.png"
+        },
+        "K2modalImageWidth": {
+            "type": "number"
+        },
+        "K2modalImageHeight": {
+            "type": "number"
+        },
+        "K2modalImagePosition": {
+            "type": "string",
+            "default": "center"
+        },
+        "K2modalImageBorderRadius": {
+            "type": "object",
+            "default": {
+                "top": "8px",
+                "right": "8px",
+                "bottom": "8px",
+                "left": "8px"
+            }
+        },
+        "K2modalImageIconEnable": {
+            "type": "boolean",
+            "default": true
+        },
+        "K2ModalBoxAlignment": {
+            "type": "string"
+        }
+    }
+	  
+}

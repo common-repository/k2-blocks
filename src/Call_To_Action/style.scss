@@ -1,0 +1,153 @@
+/**
+ * #.# Styles
+ *
+ * CSS for FrontEnd + BackEnd.
+ */
+
+
+// Cover Design Elements
+
+.k2-cta-boxed-container {
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+
+.k2-cta-cover-parent-container {
+
+  //background-image: url("https://oxfordsummerprogram.com/wp-content/uploads/2020/02/WhatsApp-Image-2020-02-10-at-12.33.09-PM-1-1.jpeg");
+  background-color: lightgray;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+}
+
+.k2-cta-cover-text-container {
+  width: 100%;
+  padding: 2em;
+}
+
+.k2-cta-cover-heading-style {}
+
+
+.k2-cta-cover-paragraph-heading {
+  color: white;
+}
+
+
+
+.k2-cta-cover-button-styling {
+  padding: 0.5em 1em;
+  display: inline-block;
+  // border settings
+
+
+
+
+  //text settings
+  font-family: 'poppins';
+  font-weight: 500;
+  line-height: 1 !important;
+
+  //transition effect
+  transition: 0.5s;
+
+
+}
+
+
+.k2-cta-cover-button-styling:hover {
+
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+// Classic Design Elements
+
+
+
+.k2-cta-classic-parent-container {
+  display: flex;
+  align-items: center;
+  // flex-wrap: wrap-reverse;
+  position: relative;
+}
+
+
+
+
+// Image Container
+
+.k2-cta-classic-image-container {
+  background-color: lightgray;
+  flex-basis: 50%;
+  //  background-image: url("http://localhost/wordpress/wp-content/uploads/2020/04/Culture-and-Diversity-e1575982916249.jpg");
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+
+}
+
+
+// Text Container
+.k2-cta-classic-text-container {
+  flex-basis: 50%;
+  vertical-align: middle;
+  padding: 2em;
+}
+
+.k2-cta-classic-heading-style {}
+
+.k2-cta-classic-paragraph-heading {
+  color: #002147;
+}
+
+.k2-cta-classic-button-styling {
+  padding: 0.5em 1em;
+  display: inline-block;
+
+  //text settings
+  font-family: 'poppins';
+  font-weight: 500;
+  line-height: 1 !important;
+
+  //transition effect
+  transition: 0.5s;
+
+
+}
+
+.k2-cta-classic-button-styling:hover {
+
+  cursor: pointer;
+}
+
+//
+//@media (max-width: 1000px) {
+//  .CoverParentContainerSpan {
+//	width: 100%;
+//  }
+//}
+
+@media (max-width: 700px) {
+  .k2-cta-classic-image-container {
+    flex-basis: 100% !important;
+    min-height: 65vh;
+  }
+
+  .k2-cta-classic-text-container {
+    flex-basis: 100% !important;
+  }
+}

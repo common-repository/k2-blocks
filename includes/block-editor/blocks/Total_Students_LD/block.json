@@ -1,0 +1,105 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/totalstudents",
+	"version": "0.1.0",
+	"title": "Total Students",
+	"category": "k2-blocks-learndash",
+	"icon": "smiley",
+	"description": "Displays a card with design effects enable user to show total number of Students in a course.",
+	"keywords":  [ "learndash","ld", "K2 Blocks", "Students" ],
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+            "margin": true, 
+            "padding": true, 
+            "blockGap": true  
+        }
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes": {
+		"k2_total_courses_student":{
+			"type":"array"
+		},
+		"SelectedK2CourseForStudent":{
+			"type":"string"
+		},
+		"SelectedK2LessonForStudent":{
+			"type":"string"
+		},
+		"NumberOfStudents":{
+			"type":""
+		},
+		"NumberOfLessons":{
+			"type":""
+		},
+		"K2ldmainContPaddingStudents": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2ldmainContMarginStudents":{
+			"type": "object",
+			"default": {"top": "0px", "right": "6px", "bottom": "0px", "left": "0px"}
+		},
+		"K2ldmainContBorderStudents": {
+			"type": "object",
+			"default": {"color": "#0FAE96", "style": "solid", "width": "1px"}
+		},
+		"K2ldmainContBorderRadiusStudents": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2ldHeadingSizeStudents": {
+			"type": "number",
+			"default": 26
+		},
+		"K2ldheadingFontFamStudents": {
+			"type": "string",
+			"default":"Montserrat, san-serif"
+		},
+		"K2ldheadingFontWeightStudents": {
+			"type": "string"
+		},
+		"K2ldheadingColorStudents":{
+			"type":"string",
+			"default":"#1D1D1D"
+		},
+		"K2ldCountSizeStudents": {
+			"type": "number",
+			"default": 26
+		},
+		"K2ldCountFontFamStudents": {
+			"type": "string"
+		},
+		"K2ldCountFontWeightStudents": {
+			"type": "string"
+		},
+		"K2ldCountColorStudentss": {
+			"type": "string"
+		},
+		"k2ldImageStudents": {
+			"type": "string",
+			"default": "http://k2blocks.com/wp-content/uploads/2024/04/graduation.png"
+		},
+		"k2ldImageWidthStudents": {
+			"type": "number",
+			"default": 100
+		},
+		"K2ldImageBackgroundStudents": {
+			"type": "string",
+			"default":"#A64E9C"
+		},
+		"K2ldImageContBorderRadiusStudents": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2LDImageAlignmentStudents": {
+			"type": "string",
+			"default": "center"
+		}
+	}
+}

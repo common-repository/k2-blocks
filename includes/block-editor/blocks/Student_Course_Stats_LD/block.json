@@ -1,0 +1,247 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/studentcoursestats",
+	"version": "0.1.0",
+	"title": "Student Course Stats",
+	"category": "k2-blocks-learndash",
+	"icon": "smiley",
+	"description": "Displays a group of cards with design effects enable user to show not started, in progress and completed courses of Students",
+	"keywords":  [ "learndash","ld", "K2 Blocks", "Courses" ],
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+            "margin": true, 
+            "padding": true, 
+            "blockGap": true  
+        }
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes": {
+		"ldcourses":{
+			"type":"object"
+		},
+		"k2LdCoursedata": {
+			"type": ""	
+		},
+		"k2ldCourseStatDirection":{
+			"type":"string",
+			"default":"row"
+		},
+		"k2ldCourseCardColwidth":{
+			"type":"number"
+		},
+		"k2LdfilterType" : {
+			"type":"string",
+			"default": "all"
+		},
+		"K2ldmainContPadding": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2ldmainContMargin":{
+			"type": "object",
+			"default": {"top": "0px", "right": "6px", "bottom": "0px", "left": "0px"}
+		},
+		"K2ldmainContBorder": {
+			"type": "object",
+			"default": {"color": "#0FAE96", "style": "solid", "width": "1px"}
+		},
+		"K2ldmainContBorderRadius": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2ldmainContBackground": {
+			"type": "string",
+			"default": "#fff"
+		},
+		"K2ldHeadingSize": {
+			"type": "number",
+			"default": 26
+		},
+		"K2ldheadingFontFam": {
+			"type": "string",
+			"default":"Montserrat, san-serif"
+		},
+		"K2ldheadingFontWeight": {
+			"type": "string"
+		},
+		"K2ldheadingColor":{
+			"type":"string",
+			"default":"#1D1D1D"
+		},
+		"K2ldCountSize": {
+			"type": "number",
+			"default": 26
+		},
+		"K2ldCountFontFam": {
+			"type": "string"
+		},
+		"K2ldCountFontWeight": {
+			"type": "string"
+		},
+		"K2ldCountColor": {
+			"type": "string"
+		},
+		"k2ldImage": {
+			"type": "string",
+			"default": "http://k2blocks.com/wp-content/uploads/2024/04/book.png"
+		},
+		"k2ldImageWidth": {
+			"type": "number",
+			"default": 100
+		},
+		"K2ldImageBackground": {
+			"type": "string",
+			"default":"#0F4030"
+		},
+		"K2ldImageContBorderRadius": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2LDImageAlignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"K2ldmainContPaddingInProgress": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2ldmainContMarginInProgress":{
+			"type": "object",
+			"default": {"top": "0px", "right": "6px", "bottom": "0px", "left": "0px"}
+		},
+		"K2ldmainContBorderInProgress": {
+			"type": "object",
+			"default": {"color": "#0FAE96", "style": "solid", "width": "1px"}
+		},
+		"K2ldmainContBorderRadiusInProgress": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2ldmainContBackgroundInProgress": {
+			"type": "string",
+			"default": "#fff"
+		},
+		"K2ldHeadingSizeInProgress": {
+			"type": "number",
+			"default": 26
+		},
+		"K2ldheadingFontFamInProgress": {
+			"type": "string",
+			"default":"Montserrat, san-serif"
+		},
+		"K2ldheadingFontWeightInProgress": {
+			"type": "string"
+		},
+		"K2ldheadingColorInProgress":{
+			"type":"string",
+			"default":"#1D1D1D"
+		},
+		"K2ldCountSizeInProgress": {
+			"type": "number",
+			"default": 26
+		},
+		"K2ldCountFontFamInProgress": {
+			"type": "string"
+		},
+		"K2ldCountFontWeightInProgress": {
+			"type": "string"
+		},
+		"K2ldCountColorInProgress": {
+			"type": "string"
+		},
+		"k2ldImageInProgress": {
+			"type": "string",
+			"default": "http://k2blocks.com/wp-content/uploads/2024/04/open-book.png"
+		},
+		"k2ldImageWidthInProgress": {
+			"type": "number",
+			"default": 100
+		},
+		"K2ldImageBackgroundInProgress": {
+			"type": "string",
+			"default":"#1AA379"
+		},
+		"K2ldImageContBorderRadiusInProgress": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2LDImageAlignmentInProgress": {
+			"type": "string",
+			"default": "center"
+		},
+		"K2ldmainContPaddingCompleted": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2ldmainContMarginCompleted":{
+			"type": "object",
+			"default": {"top": "0px", "right": "6px", "bottom": "0px", "left": "0px"}
+		},
+		"K2ldmainContBorderCompleted": {
+			"type": "object",
+			"default": {"color": "#0FAE96", "style": "solid", "width": "1px"}
+		},
+		"K2ldmainContBorderRadiusCompleted": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2ldmainContBackgroundCompleted": {
+			"type": "string",
+			"default": "#fff"
+		},
+		"K2ldHeadingSizeCompleted": {
+			"type": "number",
+			"default": 26
+		},
+		"K2ldheadingFontFamCompleted": {
+			"type": "string",
+			"default":"Montserrat, san-serif"
+		},
+		"K2ldheadingFontWeightCompleted": {
+			"type": "string"
+		},
+		"K2ldheadingColorCompleted":{
+			"type":"string",
+			"default":"#1D1D1D"
+		},
+		"K2ldCountSizeCompleted": {
+			"type": "number",
+			"default": 26
+		},
+		"K2ldCountFontFamCompleted": {
+			"type": "string"
+		},
+		"K2ldCountFontWeightCompleted": {
+			"type": "string"
+		},
+		"K2ldCountColorCompleted": {
+			"type": "string"
+		},
+		"k2ldImageCompleted": {
+			"type": "string",
+			"default": "http://k2blocks.com/wp-content/uploads/2024/04/loading.png"
+		},
+		"k2ldImageWidthCompleted": {
+			"type": "number",
+			"default": 100
+		},
+		"K2ldImageBackgroundCompleted": {
+			"type": "string",
+			"default":"#26063C"
+		},
+		"K2ldImageContBorderRadiusCompleted": {
+			"type": "object",
+			"default": {"top": "10px", "right": "10px", "bottom": "10px", "left": "10px"}
+		},
+		"K2LDImageAlignmentCompleted": {
+			"type": "string",
+			"default": "center"
+		}
+	}
+}

@@ -1,0 +1,227 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "k2/call-to-action-block",
+	"version": "0.1.0",
+	"title": "Call To Action",
+	"category": "k2-blocks",
+	"icon": "smiley",
+	"description": "In today's digital landscape, capturing user attention and driving them towards a desired action is the cornerstone of success. Call to Action (CTA) blocks have emerged as an invaluable tool in achieving this goal.",
+	"keywords":  [ "Call To Action", "K2 Blocks", "Banner"],
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+            "margin": true, 
+            "padding": true, 
+            "blockGap": true  
+        }
+	},
+	"textdomain": "k2-blocks",
+	"editorScript": "file:../../../../dist/index.js",
+	"editorStyle": "file:../../../../dist/all-blocks.css",
+	"style": "file:../../../../dist/style-all-blocks.css",
+	"attributes":{
+		"LayoutDesign": {
+			"type": "string",
+			"default": "Cover"
+		},
+		"CTA_Image": {
+			"type": "string",
+			"default": "http://k2blocks.com/wp-content/uploads/2023/06/Rectangle-1713.png"
+		},
+		"CTAHeadingText": {
+			"type": "string",
+			"default": "Classic Call To Action"
+		},
+		"CTAParagraphText": {
+			"type": "string",
+			"default": "Hello, I’m a classic Call to Action block with a heading, paragraph, button, and an image. You can edit all these elements in any way you want to."
+		},
+		"CTAButtonText": {
+			"type": "string",
+			"default": "Read More"
+		},
+		"CTAOverlayColorRed": {
+			"type": "number",
+			"default": 180
+		},
+		"CTAOverlayColorGreen": {
+			"type": "number",
+			"default": 55
+		},
+		"CTAOverlayColorBlue": {
+			"type": "number",
+			"default": 87
+		},
+		"CTAOverlayColorAlpha": {
+			"type": "number",
+			"default": 0.6
+		},
+		"CTAOverlayEnableDisable": {
+			"type": "boolean",
+			"default": true
+		},
+		"CTAClassicPosition": {
+			"type": "string",
+			"default": "row"
+		},
+		"CTACoverContainerHeight": {
+			"type": "number",
+			"default": 35
+		},
+		"CTAClassicBoxHeight": {
+			"type": "number",
+			"default": 35
+		},
+		"CTABoxBorderRadius": {
+			"type": "object",
+			"default": {"top": "0px", "right": "0px", "bottom": "0px", "left": "0px"}
+		},
+		"CTAAlignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"CTABoxWidth": {
+			"type": "number",
+			"default": 80
+		},
+		"InspectorControlClassicOptionDisplay": {
+			"type": "string",
+			"default": "Left"
+		},
+		"CTAisHeadingEnabled": {
+			"type": "boolean",
+			"default": true
+		},
+		"CTAisParagraphyEnabled": {
+			"type": "boolean",
+			"default": true
+		},
+		"CTAisButtonEnabled": {
+			"type": "boolean",
+			"default": true
+		},
+		"CTAInnerContainerPlacement": {
+			"type": "string",
+			"default": "center"
+		},
+		"CTAHeadingColor": {
+			"type": "string",
+			"default": "white"
+		},
+		"CTAParagraphColor": {
+			"type": "string",
+			"default": "white"
+		},
+		"CTAHeadingFontSize": {
+			"type": "number",
+			"default": 2
+		},
+		"CTAParagraphyFontSize": {
+			"type": "number",
+			"default": 1.4
+		},
+		"CTAButtonFontSize": {
+			"type": "number",
+			"default": 1.4
+		},
+		"CTAHeadingFontFamily": {
+			"type": "string",
+			"default": "Helvatica"
+		},
+		"CTAParagraphFontFamily": {
+			"type": "string",
+			"default": "Helvatica"
+		},
+		"CTAButtonFontFamily": {
+			"type": "string",
+			"default": "Helvatica"
+		},
+		"CTAButtonFontWeight": {
+			"type": "string",
+			"default": "normal"
+		},
+		"CTAButtonTextStyle": {
+			"type": "number",
+			"default": "normal"
+		},
+		"CTAButtonTextDecoration": {
+			"type": "string",
+			"default": "None"
+		},
+		"CTAHeadingFontWeight": {
+			"type": "string",
+			"default": "600"
+		},
+		"CTAHeadingTextStyle": {
+			"type": "number",
+			"default": "normal"
+		},
+		"CTAHeadingTextDecoration": {
+			"type": "string",
+			"default": "None"
+		},
+		"CTAParagraphFontWeight": {
+			"type": "string",
+			"default": "300"
+		},
+		"CTAParagraphTextStyle": {
+			"type": "number",
+			"default": "normal"
+		},
+		"CTAParagraphTextDecoration": {
+			"type": "string",
+			"default": "None"
+		},
+		"CTAButtonBorderStyle": {
+			"type": "string",
+			"default": "None"
+		},
+		"CTAButtonBorderWidth": {
+			"type": "number",
+			"default": 3
+		},
+		"CTAButtonBorderRadius": {
+			"type": "number",
+			"default": 3
+		},
+		"CTAButtonBorderColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"CTAButtonColor": {
+			"type": "string",
+			"default": "#3d8c97"
+		},
+		"CTAButtonTextColor": {
+			"type": "string",
+			"default": "white"
+		},
+		"CTAButtonlink": {
+			"type": "string",
+			"default": ""
+		},
+		"CTAButtonLinkOpenNewTab": {
+			"type": "boolean",
+			"default": false
+		},
+		"CallToActionOverlayColor": {
+			"type": "string",
+			"default": "inset 0 0 0 100vh rgba(68,68,68,0.4)"
+		},
+		"InspectorControlCallToActionOverlayColor": {
+			"type": "string",
+			"default": "rgba(68,68,68,0.4)"
+		},
+		"isCTABGgradientEnable": {
+			"type": "boolean",
+			"default": false
+		},
+		"K2CTApricingBgGradient": {
+			"type": "string",
+			"default": "linear-gradient(45deg, rgb(15, 32, 39) 0%, rgb(29, 146, 221) 0%, rgb(123, 220, 181) 100%)"
+		}
+	}
+	
+}

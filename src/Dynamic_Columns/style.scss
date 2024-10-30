@@ -1,0 +1,17 @@
+@for $i from 1 through 6 {
+    &.has-#{$i}-columns {
+        >.singleChildCont {
+            flex-basis: calc(100% / #{$i} - 30px);
+        }
+    }
+}
+
+.k2-dynamic-columns {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: center;
+    width: 100%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}

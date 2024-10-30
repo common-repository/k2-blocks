@@ -1,0 +1,30 @@
+.k2-ib-widget-container {
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+div.k2-ib-container {
+  width: 100%;
+  // display: inline-flex;
+  // padding: 0.5em;
+  display: flex;
+  align-items: flex-end;
+}
+
+div.k2-ib-box {
+  display: block;
+}
+
+.k2-ib-button-container {
+  display: flex;
+  width: 100%;
+}
+
+.k2-ib-text-image-area {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
